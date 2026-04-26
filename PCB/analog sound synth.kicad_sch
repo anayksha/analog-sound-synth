@@ -2,9 +2,147 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 425447dc-c662-4463-a318-9ca8a58ab54a)
+	(uuid "425447dc-c662-4463-a318-9ca8a58ab54a")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 83.82 22.86)
+		(size 43.18 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3488c46d-50f8-404d-a50b-1fbb1eab40c6")
+		(property "Sheetname" "sq wave generators"
+			(at 83.82 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sq wave generators.kicad_sch"
+			(at 83.82 46.3046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 22.86)
+		(size 27.94 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8bb123aa-3649-4461-9a62-5a0f8026d43c")
+		(property "Sheetname" "power"
+			(at 30.48 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 30.48 45.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 62.23)
+		(size 33.02 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca")
+		(property "Sheetname" "buttons ig"
+			(at 29.21 61.5184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons.kicad_sch"
+			(at 29.21 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

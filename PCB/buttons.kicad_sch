@@ -1,0 +1,6846 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a80ef606-dedf-4575-9993-28a1a37603ec")
+	(paper "A4")
+	(lib_symbols
+		(symbol "EasyEDA:PS-7054DVB-6PN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PS-7054DVB-6PN"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "G-Switch(品赞)"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "PS-7054DVB-6PN"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C22363820"
+				(at 0 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Pushbutton Switches"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PS-7054DVB-6PN_0_1"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy 5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 1.78) (xy -1.27 1.78) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 1.27) (xy 3.81 1.27) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 -1.27) (xy 3.81 -1.27) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 -1.78) (xy -1.27 -1.78) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 -2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.81) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -1.27 -7.62 90)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -7.62 90)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 -7.62 90)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -1.27 7.62 270)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 7.62 270)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 7.62 270)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 26.67 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05fc3960-2f05-4129-b32f-2f3be57ed6bb")
+	)
+	(junction
+		(at 99.06 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "062e75fb-4d7b-4f6c-9902-4e62aa96d27b")
+	)
+	(junction
+		(at 26.67 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45aee0c8-a1b9-4411-b193-caada3ce68b3")
+	)
+	(junction
+		(at 170.18 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ecfb0c8-193d-49bc-b25b-79eea8d26018")
+	)
+	(junction
+		(at 134.62 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6960b640-eee6-4a95-9fb0-538954a70959")
+	)
+	(junction
+		(at 205.74 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87a8c1a2-d627-4275-8320-ae360090ca9b")
+	)
+	(junction
+		(at 99.06 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89f68181-7c51-4220-abb9-550da1e3ab4b")
+	)
+	(junction
+		(at 241.3 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a728147-d280-4db1-9040-4340210a1911")
+	)
+	(junction
+		(at 62.23 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bf70c48-64ca-45a8-83dd-efdc0b718bac")
+	)
+	(junction
+		(at 134.62 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9623ad82-fd1a-4109-9cdc-cf0e1050dbfc")
+	)
+	(junction
+		(at 62.23 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a056380a-f0c3-4aa8-b171-1f1f0414c6ab")
+	)
+	(junction
+		(at 62.23 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1170a17-5825-41a6-83f1-dc8c2c9a955a")
+	)
+	(junction
+		(at 26.67 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc0e6517-a4ca-4f63-a606-03ff6e496ad3")
+	)
+	(junction
+		(at 170.18 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccafd4fc-7487-4c9d-b87d-1a10a24f0a4d")
+	)
+	(junction
+		(at 134.62 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d78ec9c3-ae72-43a3-b937-1e515ed01b1d")
+	)
+	(junction
+		(at 99.06 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dff1a8c9-5639-48c2-9c55-50ae3e894dbb")
+	)
+	(junction
+		(at 205.74 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8fe387e-3cd1-411a-992d-d2b2010e9de3")
+	)
+	(junction
+		(at 205.74 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed2ec9b2-3f6e-488f-a79f-67343cd8b160")
+	)
+	(junction
+		(at 170.18 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9ad2c7c-fccd-4749-b732-75bc8ca8f331")
+	)
+	(junction
+		(at 241.3 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa2f7f3a-abb8-4eaf-843f-fd116358b327")
+	)
+	(no_connect
+		(at 67.31 39.37)
+		(uuid "0042f7d1-dfe9-46e2-9cf9-a1f05577cd96")
+	)
+	(no_connect
+		(at 246.38 90.17)
+		(uuid "01c21b1a-c159-4ae3-965f-4879d6683c55")
+	)
+	(no_connect
+		(at 104.14 124.46)
+		(uuid "0211ecad-51c2-41c8-a0ab-f4ead919edd1")
+	)
+	(no_connect
+		(at 31.75 124.46)
+		(uuid "028a5c41-74fc-48ee-9964-de59b7133a23")
+	)
+	(no_connect
+		(at 175.26 54.61)
+		(uuid "1190ee0f-4d55-4b7b-9145-a276fdd3d33c")
+	)
+	(no_connect
+		(at 175.26 109.22)
+		(uuid "1ed54d90-4308-4e6b-91a9-5ebe258ea7ff")
+	)
+	(no_connect
+		(at 104.14 90.17)
+		(uuid "20759655-2b17-4df8-884c-2762dc9f6809")
+	)
+	(no_connect
+		(at 175.26 39.37)
+		(uuid "2d876b05-fb03-430e-952c-62af130091e7")
+	)
+	(no_connect
+		(at 67.31 124.46)
+		(uuid "2f14e44e-deeb-4961-91d0-eb6b7e525f70")
+	)
+	(no_connect
+		(at 175.26 74.93)
+		(uuid "369d5ea4-df9d-49ec-ad48-6d37d4794714")
+	)
+	(no_connect
+		(at 139.7 74.93)
+		(uuid "3b15c13a-194b-4734-a8cf-16a345cfd524")
+	)
+	(no_connect
+		(at 104.14 54.61)
+		(uuid "3f1fe231-df18-4a47-86e6-961b3cbda83f")
+	)
+	(no_connect
+		(at 139.7 124.46)
+		(uuid "40b9a9fe-b0ce-41f3-a009-8e1172179eab")
+	)
+	(no_connect
+		(at 210.82 74.93)
+		(uuid "496a19f4-a12a-419b-a3d0-09b153541109")
+	)
+	(no_connect
+		(at 31.75 39.37)
+		(uuid "53a0a1e2-d3d8-4e9f-8422-95007cc45400")
+	)
+	(no_connect
+		(at 104.14 74.93)
+		(uuid "553e51b7-3d29-4177-99e7-22ead3d1e5f8")
+	)
+	(no_connect
+		(at 31.75 109.22)
+		(uuid "61482635-7a71-48c1-bbd9-f7aba78334bf")
+	)
+	(no_connect
+		(at 67.31 90.17)
+		(uuid "6be84d76-8f3e-4dba-b742-9be8c9649f5f")
+	)
+	(no_connect
+		(at 139.7 39.37)
+		(uuid "6f8e6938-f2d8-47c3-8949-fde5825cf200")
+	)
+	(no_connect
+		(at 67.31 74.93)
+		(uuid "771828dd-e84f-4ef3-a345-67539692e036")
+	)
+	(no_connect
+		(at 246.38 39.37)
+		(uuid "7adf3300-8057-4bd9-ade4-445be3f42d7c")
+	)
+	(no_connect
+		(at 31.75 90.17)
+		(uuid "8316cadc-bf66-466b-937a-29f1ae7ec3f5")
+	)
+	(no_connect
+		(at 67.31 109.22)
+		(uuid "902d363c-73f4-4871-bfdf-25664cd979aa")
+	)
+	(no_connect
+		(at 139.7 54.61)
+		(uuid "a1670290-c613-4e1e-bc4e-0d2d90071baa")
+	)
+	(no_connect
+		(at 175.26 124.46)
+		(uuid "bbad7d27-8a6e-49c4-96ca-8c65734a4255")
+	)
+	(no_connect
+		(at 246.38 54.61)
+		(uuid "bc31aa37-36e1-427a-9427-619b1bacd89a")
+	)
+	(no_connect
+		(at 210.82 54.61)
+		(uuid "be9c9086-2df2-42d5-b67e-999386248f26")
+	)
+	(no_connect
+		(at 210.82 124.46)
+		(uuid "c4651287-f722-463b-8e1a-e6d5bb6193d3")
+	)
+	(no_connect
+		(at 104.14 109.22)
+		(uuid "c4ee6b7b-25d0-40ad-a3b3-ffbde301a692")
+	)
+	(no_connect
+		(at 210.82 39.37)
+		(uuid "c6b0913a-b643-4950-a775-301b9e42c749")
+	)
+	(no_connect
+		(at 210.82 90.17)
+		(uuid "c851094e-c8ad-4a47-aaf2-2b592f734c9c")
+	)
+	(no_connect
+		(at 104.14 39.37)
+		(uuid "c96c0ce8-1ca7-40b5-87c6-8529a6d3b2db")
+	)
+	(no_connect
+		(at 139.7 109.22)
+		(uuid "ca325718-b726-4b87-a9fd-19a6d2466a72")
+	)
+	(no_connect
+		(at 175.26 90.17)
+		(uuid "cc85f215-b697-468c-916f-31ce78082a26")
+	)
+	(no_connect
+		(at 210.82 109.22)
+		(uuid "d43dbf21-a326-4159-9520-487c0bbb1446")
+	)
+	(no_connect
+		(at 31.75 74.93)
+		(uuid "d7340306-5430-4920-99da-a2c7ef122229")
+	)
+	(no_connect
+		(at 139.7 90.17)
+		(uuid "df5a9d75-90f6-4040-a9ed-b0c38d3f59e7")
+	)
+	(no_connect
+		(at 246.38 74.93)
+		(uuid "e03ff0d2-377c-4e22-80ac-70b88a791db9")
+	)
+	(no_connect
+		(at 67.31 54.61)
+		(uuid "e3663cfa-a092-47cc-9226-525be068f832")
+	)
+	(no_connect
+		(at 31.75 54.61)
+		(uuid "f542986e-a270-4176-a3f1-04c73b8e8091")
+	)
+	(wire
+		(pts
+			(xy 170.18 67.31) (xy 172.72 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "003f7c60-85e5-416f-88a0-7be2aaffc2a7")
+	)
+	(wire
+		(pts
+			(xy 142.24 127) (xy 142.24 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00dae1eb-2d67-4057-b336-eef9248bd011")
+	)
+	(wire
+		(pts
+			(xy 36.83 54.61) (xy 36.83 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00e86bfc-43bb-44c8-b35a-3e071b842d86")
+	)
+	(wire
+		(pts
+			(xy 180.34 35.56) (xy 185.42 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0127ebc7-7e93-42a1-9550-5599cfae70af")
+	)
+	(wire
+		(pts
+			(xy 62.23 31.75) (xy 64.77 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01818f88-96af-4d74-8822-e9f95a51c21e")
+	)
+	(wire
+		(pts
+			(xy 109.22 39.37) (xy 109.22 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0271cda2-1fad-41a5-bacb-7b7e6b0a5b61")
+	)
+	(wire
+		(pts
+			(xy 109.22 124.46) (xy 109.22 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "028c2e64-be70-431a-ad6d-ee11f7f7b97f")
+	)
+	(wire
+		(pts
+			(xy 215.9 105.41) (xy 220.98 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02aefe51-59c6-495d-b714-1f0ed02235a2")
+	)
+	(wire
+		(pts
+			(xy 170.18 105.41) (xy 170.18 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b7ce6d-4310-470c-ad04-cf4a251a3a4d")
+	)
+	(wire
+		(pts
+			(xy 144.78 92.71) (xy 153.67 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b8b2d3-6089-4838-be07-50e05f9bb7c3")
+	)
+	(wire
+		(pts
+			(xy 251.46 90.17) (xy 251.46 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "040ca403-8488-43a8-b951-29f5e327ba7b")
+	)
+	(wire
+		(pts
+			(xy 205.74 31.75) (xy 208.28 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d5becf-bd12-4377-a145-3a35e7e822a8")
+	)
+	(wire
+		(pts
+			(xy 69.85 71.12) (xy 62.23 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "063ab557-7f29-44d1-9130-d7aa3d1ff606")
+	)
+	(wire
+		(pts
+			(xy 109.22 35.56) (xy 114.3 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b6d993-8c73-4de2-a125-029817c538de")
+	)
+	(wire
+		(pts
+			(xy 62.23 35.56) (xy 62.23 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0707e690-0579-4853-ab79-e7de164e3152")
+	)
+	(wire
+		(pts
+			(xy 213.36 39.37) (xy 213.36 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0760fcc0-328c-4b1c-b0ef-af34c303509e")
+	)
+	(wire
+		(pts
+			(xy 99.06 31.75) (xy 101.6 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096985e6-b4cc-4729-bf62-1dcf89d84966")
+	)
+	(wire
+		(pts
+			(xy 26.67 31.75) (xy 29.21 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d468f5e-0188-439a-a055-c0d7cd3f08e7")
+	)
+	(wire
+		(pts
+			(xy 213.36 105.41) (xy 205.74 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dfb52d6-6b72-4ba3-a8a2-7bc67880d7f1")
+	)
+	(wire
+		(pts
+			(xy 134.62 105.41) (xy 134.62 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1234153d-3549-4e6b-9638-1c3f9413d8d0")
+	)
+	(wire
+		(pts
+			(xy 109.22 71.12) (xy 114.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13177d37-d610-4ac5-853a-93b2cc414c6b")
+	)
+	(wire
+		(pts
+			(xy 248.92 57.15) (xy 248.92 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152563cb-9dc1-48e5-baf2-649eb9bd2c99")
+	)
+	(wire
+		(pts
+			(xy 134.62 92.71) (xy 142.24 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1880e00b-ae2b-4801-ad36-cca18c88db73")
+	)
+	(wire
+		(pts
+			(xy 99.06 92.71) (xy 106.68 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d11a56-2c6b-4fe2-bcfb-91c5a362364a")
+	)
+	(wire
+		(pts
+			(xy 99.06 71.12) (xy 99.06 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b0c2163-1ed9-4ea8-9f34-5b2d1e32ab8d")
+	)
+	(wire
+		(pts
+			(xy 248.92 39.37) (xy 248.92 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1baf08-9f1b-4f14-8a34-fa2efe5eb4c5")
+	)
+	(wire
+		(pts
+			(xy 251.46 57.15) (xy 260.35 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d560397-a7b6-4061-b022-8284c8bde8bd")
+	)
+	(wire
+		(pts
+			(xy 215.9 124.46) (xy 215.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed18e79-f78b-46ea-bebd-1b14be27ec7d")
+	)
+	(wire
+		(pts
+			(xy 106.68 39.37) (xy 106.68 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f60ed7a-d657-4f60-8343-30f4a5d2cb54")
+	)
+	(wire
+		(pts
+			(xy 69.85 92.71) (xy 69.85 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a22675-2561-4aba-b90c-f92692121086")
+	)
+	(wire
+		(pts
+			(xy 62.23 92.71) (xy 69.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ae367d-963f-4596-b481-3317eec29364")
+	)
+	(wire
+		(pts
+			(xy 36.83 105.41) (xy 41.91 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271985b1-da7e-4ae1-9b3b-53e4b40e9bf9")
+	)
+	(wire
+		(pts
+			(xy 213.36 127) (xy 213.36 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28ebfa5f-390e-46a8-98c9-66476365decb")
+	)
+	(wire
+		(pts
+			(xy 180.34 71.12) (xy 185.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ac2ea4-e6da-4231-a86f-ce75c6e984f4")
+	)
+	(wire
+		(pts
+			(xy 34.29 92.71) (xy 34.29 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8c6d55-2b9d-416f-91e6-ad303ee95222")
+	)
+	(wire
+		(pts
+			(xy 251.46 39.37) (xy 251.46 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309009d0-99fe-4eb7-85f9-ae3b0e83249d")
+	)
+	(wire
+		(pts
+			(xy 109.22 105.41) (xy 114.3 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309088bb-373a-4b74-aa0b-475c3c20fd50")
+	)
+	(wire
+		(pts
+			(xy 62.23 71.12) (xy 62.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d65760-eae7-4896-8695-5c5cc46c873e")
+	)
+	(wire
+		(pts
+			(xy 106.68 71.12) (xy 99.06 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ac8520-a116-464d-89b7-3ae0c1b48fdb")
+	)
+	(wire
+		(pts
+			(xy 62.23 127) (xy 69.85 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c8359c-2d3e-4053-965a-dd7956b40b7a")
+	)
+	(wire
+		(pts
+			(xy 205.74 57.15) (xy 213.36 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e0bcb8-ea51-4c99-92a7-02c24bd39769")
+	)
+	(wire
+		(pts
+			(xy 26.67 71.12) (xy 26.67 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ce7344-90a9-44ff-a673-3d52dcf9acc7")
+	)
+	(wire
+		(pts
+			(xy 215.9 90.17) (xy 215.9 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3849d96b-4fee-476c-9353-a355a4864412")
+	)
+	(wire
+		(pts
+			(xy 177.8 92.71) (xy 177.8 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390ff1ce-55b7-4c19-9b56-bbc4f8c667f2")
+	)
+	(wire
+		(pts
+			(xy 213.36 57.15) (xy 213.36 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3948e0df-fd09-4250-ad76-feb9193ffdcc")
+	)
+	(wire
+		(pts
+			(xy 134.62 35.56) (xy 134.62 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "394f6d87-50a7-44c9-a578-34eefdd809ac")
+	)
+	(wire
+		(pts
+			(xy 170.18 71.12) (xy 170.18 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3970588f-27b7-4dde-beb4-2225dfdf4b41")
+	)
+	(wire
+		(pts
+			(xy 62.23 67.31) (xy 64.77 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3a8038-dd64-487c-803f-3453557949c2")
+	)
+	(wire
+		(pts
+			(xy 69.85 105.41) (xy 62.23 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d317877-35de-45a9-aad9-f7e1079b997e")
+	)
+	(wire
+		(pts
+			(xy 205.74 127) (xy 213.36 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d41bd5f-527f-496a-94e1-07fd16c478e6")
+	)
+	(wire
+		(pts
+			(xy 109.22 127) (xy 118.11 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d4e51f6-1f6f-47f8-97c2-3aece9263777")
+	)
+	(wire
+		(pts
+			(xy 144.78 90.17) (xy 144.78 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da2102a-cd32-49f8-808b-ade920a157e9")
+	)
+	(wire
+		(pts
+			(xy 134.62 105.41) (xy 134.62 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f8fe511-a9f1-4c66-b9b5-12776cabd675")
+	)
+	(wire
+		(pts
+			(xy 72.39 92.71) (xy 81.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42fd5b4d-a8df-42ae-b613-ae2ff3a93ba8")
+	)
+	(wire
+		(pts
+			(xy 251.46 74.93) (xy 251.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43417e82-d769-4bad-92cf-0a33ed1560b1")
+	)
+	(wire
+		(pts
+			(xy 69.85 39.37) (xy 69.85 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4565d6e0-71ec-437f-a054-2eafc88c49a5")
+	)
+	(wire
+		(pts
+			(xy 170.18 35.56) (xy 170.18 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "458a2e37-fa94-4de8-b5bf-57f7600dd082")
+	)
+	(wire
+		(pts
+			(xy 134.62 101.6) (xy 137.16 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ca09bc-cc57-4766-8ecd-1d2f3b5d8594")
+	)
+	(wire
+		(pts
+			(xy 72.39 109.22) (xy 72.39 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "484ac810-87de-4b15-aa22-5649fe617cb5")
+	)
+	(wire
+		(pts
+			(xy 109.22 109.22) (xy 109.22 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49496eef-0090-4597-8982-bb8d5c3b6e92")
+	)
+	(wire
+		(pts
+			(xy 180.34 90.17) (xy 180.34 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49612416-ba94-46cd-9b7c-325f6cde0e21")
+	)
+	(wire
+		(pts
+			(xy 144.78 105.41) (xy 149.86 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a1d2c0-3aba-41f3-b28e-8a284fac72c4")
+	)
+	(wire
+		(pts
+			(xy 213.36 74.93) (xy 213.36 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a919689-84ac-48c8-b01d-a227821384bb")
+	)
+	(wire
+		(pts
+			(xy 205.74 105.41) (xy 205.74 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc79020-2401-4663-bb55-c7a7dd3bcab4")
+	)
+	(wire
+		(pts
+			(xy 251.46 71.12) (xy 256.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bd15238-8f92-4754-ad7c-66b8e58a4565")
+	)
+	(wire
+		(pts
+			(xy 144.78 54.61) (xy 144.78 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c0c2aef-fe60-49db-95c5-a3997075c351")
+	)
+	(wire
+		(pts
+			(xy 177.8 57.15) (xy 177.8 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc29cb6-507e-42a5-8552-1c2e5728b49e")
+	)
+	(wire
+		(pts
+			(xy 241.3 35.56) (xy 241.3 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fba198e-32ea-497a-a277-95acb1dcc8cc")
+	)
+	(wire
+		(pts
+			(xy 205.74 71.12) (xy 205.74 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc2f6cf-37dc-48ec-9075-419a20d56f41")
+	)
+	(wire
+		(pts
+			(xy 99.06 127) (xy 106.68 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52dcc463-eb8a-4e36-8928-9ad79a65023f")
+	)
+	(wire
+		(pts
+			(xy 205.74 101.6) (xy 208.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54daaf22-2147-46e6-8834-792a1327fbe8")
+	)
+	(wire
+		(pts
+			(xy 62.23 71.12) (xy 62.23 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b89a69-5126-4af3-b2aa-a9d32e49a043")
+	)
+	(wire
+		(pts
+			(xy 62.23 101.6) (xy 64.77 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583da44d-0d7d-4440-90ca-2f8a01db6a08")
+	)
+	(wire
+		(pts
+			(xy 142.24 74.93) (xy 142.24 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593b6632-6730-4c33-8cbe-544bbcfcf98e")
+	)
+	(wire
+		(pts
+			(xy 144.78 71.12) (xy 149.86 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd6d8f8-fa99-4b68-aed2-8ed1806db2f0")
+	)
+	(wire
+		(pts
+			(xy 170.18 92.71) (xy 177.8 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df9a663-d940-4810-ab53-fdfe94683e73")
+	)
+	(wire
+		(pts
+			(xy 34.29 71.12) (xy 26.67 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa8c79e-2c85-4161-97f5-32ca88ad87d3")
+	)
+	(wire
+		(pts
+			(xy 144.78 124.46) (xy 144.78 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "625ef15a-3fa3-4f63-8ed7-e28183f09e29")
+	)
+	(wire
+		(pts
+			(xy 170.18 101.6) (xy 172.72 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "627d44aa-eb62-49f4-aea9-20cea13d4d6d")
+	)
+	(wire
+		(pts
+			(xy 251.46 54.61) (xy 251.46 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62882874-7b26-46ac-ac66-0ede2e800ab2")
+	)
+	(wire
+		(pts
+			(xy 72.39 127) (xy 81.28 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62fda6a7-e97c-4724-b5be-3211d971a8b6")
+	)
+	(wire
+		(pts
+			(xy 36.83 57.15) (xy 45.72 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62fda71d-4907-4971-811a-4a4c1b48d220")
+	)
+	(wire
+		(pts
+			(xy 62.23 105.41) (xy 62.23 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631d7972-0d26-4743-b80e-679e2d2b784c")
+	)
+	(wire
+		(pts
+			(xy 144.78 127) (xy 153.67 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68edf4b5-6337-4f9b-afdc-1199441ada39")
+	)
+	(wire
+		(pts
+			(xy 106.68 109.22) (xy 106.68 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690745ea-e484-4cec-b861-5622f15479bb")
+	)
+	(wire
+		(pts
+			(xy 72.39 105.41) (xy 77.47 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69fa06d0-0969-4efb-ada3-0c5790f13e68")
+	)
+	(wire
+		(pts
+			(xy 170.18 71.12) (xy 170.18 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b569ad7-278f-4ccf-a5ed-db57fcd877ae")
+	)
+	(wire
+		(pts
+			(xy 144.78 74.93) (xy 144.78 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d14a8a6-eb99-4732-ba63-8e3c10c55222")
+	)
+	(wire
+		(pts
+			(xy 109.22 92.71) (xy 118.11 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e77ce8d-4167-4ec1-8856-ab85f6ea0295")
+	)
+	(wire
+		(pts
+			(xy 134.62 71.12) (xy 134.62 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e99870c-9ed9-4ae2-ad36-fb4b135a8b47")
+	)
+	(wire
+		(pts
+			(xy 251.46 35.56) (xy 256.54 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "713dbcc1-f3f3-4fe1-b07d-2a69f4f44686")
+	)
+	(wire
+		(pts
+			(xy 170.18 57.15) (xy 177.8 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71731877-6f30-4e8b-8cc3-57e8d4f267a7")
+	)
+	(wire
+		(pts
+			(xy 134.62 35.56) (xy 134.62 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ca1565-3240-4eec-837d-94741cae9b1b")
+	)
+	(wire
+		(pts
+			(xy 215.9 109.22) (xy 215.9 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72504b03-92aa-4038-b493-5cdd2223d266")
+	)
+	(wire
+		(pts
+			(xy 34.29 105.41) (xy 26.67 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73503ab6-40be-4f58-b504-d539372edbf2")
+	)
+	(wire
+		(pts
+			(xy 69.85 109.22) (xy 69.85 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f5fc6a-c19c-464c-b07d-944f56e543d5")
+	)
+	(wire
+		(pts
+			(xy 170.18 31.75) (xy 172.72 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d9b3aa-cbbd-4b34-9a67-4d29ea67214b")
+	)
+	(wire
+		(pts
+			(xy 180.34 105.41) (xy 185.42 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e705e1-3992-4639-9b0f-f1d3ab559cde")
+	)
+	(wire
+		(pts
+			(xy 134.62 71.12) (xy 134.62 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79827e1a-0631-4253-8a7c-0e0252e149df")
+	)
+	(wire
+		(pts
+			(xy 72.39 124.46) (xy 72.39 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac7a7eb-0a48-4d4d-8f7c-5eef9f4ac807")
+	)
+	(wire
+		(pts
+			(xy 34.29 74.93) (xy 34.29 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b32f8b1-a22f-4459-b280-e4a097942005")
+	)
+	(wire
+		(pts
+			(xy 72.39 74.93) (xy 72.39 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d2e8641-61c8-4569-9139-96035cde8246")
+	)
+	(wire
+		(pts
+			(xy 26.67 67.31) (xy 29.21 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e75c4c3-0f7e-42fc-bcfd-02a1e552b32d")
+	)
+	(wire
+		(pts
+			(xy 69.85 57.15) (xy 69.85 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eefde2b-a765-4fa7-bd4f-f8ea9c8dd6a3")
+	)
+	(wire
+		(pts
+			(xy 36.83 39.37) (xy 36.83 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b46dac-5072-46f5-b6dd-dcb9f151efbd")
+	)
+	(wire
+		(pts
+			(xy 215.9 74.93) (xy 215.9 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c4a11b-5e94-4d01-90aa-873d34da4c36")
+	)
+	(wire
+		(pts
+			(xy 99.06 67.31) (xy 101.6 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84823554-ea29-403f-81fd-f4249c5bab0b")
+	)
+	(wire
+		(pts
+			(xy 177.8 39.37) (xy 177.8 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d3d32b-551a-477c-ba08-d8985380aec1")
+	)
+	(wire
+		(pts
+			(xy 205.74 105.41) (xy 205.74 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c69080-1b52-4250-8370-4912817129d4")
+	)
+	(wire
+		(pts
+			(xy 142.24 105.41) (xy 134.62 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a4b2b7a-114a-4518-8e00-df645dcf5fbb")
+	)
+	(wire
+		(pts
+			(xy 69.85 74.93) (xy 69.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab5cfba-6936-4edf-bba2-e9b467d9e964")
+	)
+	(wire
+		(pts
+			(xy 180.34 124.46) (xy 180.34 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0030aa-993b-42e0-a554-53184e265c04")
+	)
+	(wire
+		(pts
+			(xy 26.67 105.41) (xy 26.67 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b63b5ae-ab5e-4313-8e6b-973c4dad5993")
+	)
+	(wire
+		(pts
+			(xy 142.24 57.15) (xy 142.24 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c07ebfc-bac0-4586-9de0-836ae34911cd")
+	)
+	(wire
+		(pts
+			(xy 213.36 35.56) (xy 205.74 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c921c1a-80bc-40cf-a811-5c820b03bf60")
+	)
+	(wire
+		(pts
+			(xy 205.74 35.56) (xy 205.74 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cbd5846-a17b-4cf6-9e4b-3cf26717d6cb")
+	)
+	(wire
+		(pts
+			(xy 180.34 39.37) (xy 180.34 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e239e5f-f722-4e2f-b625-055e25390d14")
+	)
+	(wire
+		(pts
+			(xy 36.83 74.93) (xy 36.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9012fbd1-483b-4804-9936-afdb6f188f69")
+	)
+	(wire
+		(pts
+			(xy 180.34 57.15) (xy 189.23 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909c2078-0b28-402d-a8ea-d46231623896")
+	)
+	(wire
+		(pts
+			(xy 205.74 67.31) (xy 208.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a74644-f58a-45df-9b19-1772e284cbb6")
+	)
+	(wire
+		(pts
+			(xy 213.36 109.22) (xy 213.36 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95889205-fdc0-431e-8ced-c378a71526c4")
+	)
+	(wire
+		(pts
+			(xy 72.39 54.61) (xy 72.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f72025-277e-4002-86ed-5af7626e2c31")
+	)
+	(wire
+		(pts
+			(xy 26.67 101.6) (xy 29.21 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98193da1-1199-4e5d-9ef6-29c5a36f0f2e")
+	)
+	(wire
+		(pts
+			(xy 251.46 92.71) (xy 260.35 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "993a9ef0-98b6-415f-ad84-bd6269e5e208")
+	)
+	(wire
+		(pts
+			(xy 26.67 92.71) (xy 34.29 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c9a168-9a0d-4f55-b28b-6051f1b92e2a")
+	)
+	(wire
+		(pts
+			(xy 215.9 39.37) (xy 215.9 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99fc11ee-287a-4c4c-8aab-4b49ffad7846")
+	)
+	(wire
+		(pts
+			(xy 241.3 71.12) (xy 241.3 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f0ea1aa-c93d-4248-9c2f-b55c5b63995d")
+	)
+	(wire
+		(pts
+			(xy 248.92 35.56) (xy 241.3 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f2be47b-e9b6-4476-983d-2b5f249e3064")
+	)
+	(wire
+		(pts
+			(xy 106.68 57.15) (xy 106.68 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a045399e-09fa-480b-8e01-c540482a4803")
+	)
+	(wire
+		(pts
+			(xy 180.34 127) (xy 189.23 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a36528-0d53-4244-92d0-aa163152d556")
+	)
+	(wire
+		(pts
+			(xy 34.29 127) (xy 34.29 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c39f7d-29d1-46db-acbd-ee7872ed3760")
+	)
+	(wire
+		(pts
+			(xy 26.67 105.41) (xy 26.67 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5063671-578f-4248-8bb5-a0d1ed5c1d16")
+	)
+	(wire
+		(pts
+			(xy 34.29 35.56) (xy 26.67 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52115c3-288d-493b-a0de-40a74f593dc4")
+	)
+	(wire
+		(pts
+			(xy 144.78 39.37) (xy 144.78 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67a866a-8adc-498d-a19d-4fbbf5c367b7")
+	)
+	(wire
+		(pts
+			(xy 142.24 35.56) (xy 134.62 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ac8943-b7d9-418c-ac89-230bbe683132")
+	)
+	(wire
+		(pts
+			(xy 180.34 109.22) (xy 180.34 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8db7498-7fe3-4d58-a634-ee30c2358e74")
+	)
+	(wire
+		(pts
+			(xy 180.34 54.61) (xy 180.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8fe417d-55f9-4ca4-9421-3d76b1ae05b0")
+	)
+	(wire
+		(pts
+			(xy 34.29 109.22) (xy 34.29 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac6baf6-a8c2-4b6d-8d88-6fdcd9e9c0e8")
+	)
+	(wire
+		(pts
+			(xy 213.36 92.71) (xy 213.36 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf3aacd-0756-4b8c-84e7-258de7390492")
+	)
+	(wire
+		(pts
+			(xy 26.67 35.56) (xy 26.67 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac0c1d76-04c7-4cad-af97-af9be4892560")
+	)
+	(wire
+		(pts
+			(xy 36.83 92.71) (xy 45.72 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb662c4-d240-408a-838b-24d0b19061dd")
+	)
+	(wire
+		(pts
+			(xy 99.06 35.56) (xy 99.06 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ace4c282-01b2-4aef-812f-f7d6a76e8488")
+	)
+	(wire
+		(pts
+			(xy 26.67 57.15) (xy 34.29 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad158d2d-adf8-4153-9596-aaf2f41dc9d3")
+	)
+	(wire
+		(pts
+			(xy 106.68 74.93) (xy 106.68 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7a9833-da68-4227-ad54-261ed5157bdd")
+	)
+	(wire
+		(pts
+			(xy 109.22 74.93) (xy 109.22 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd15861-489c-4650-9157-c35dbfd4b810")
+	)
+	(wire
+		(pts
+			(xy 26.67 35.56) (xy 26.67 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b084c9c3-fda4-44fc-82a3-b27812093294")
+	)
+	(wire
+		(pts
+			(xy 134.62 127) (xy 142.24 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b099246c-1c4d-46a8-b192-eeed524542fb")
+	)
+	(wire
+		(pts
+			(xy 36.83 71.12) (xy 41.91 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2035404-46c0-4b69-bd62-166e793b8483")
+	)
+	(wire
+		(pts
+			(xy 142.24 92.71) (xy 142.24 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b23c993f-2083-4eb1-acd3-5bcba7b0bd9f")
+	)
+	(wire
+		(pts
+			(xy 248.92 92.71) (xy 248.92 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b39589d0-4ef8-4fb8-be6f-e78a54d2c731")
+	)
+	(wire
+		(pts
+			(xy 62.23 57.15) (xy 69.85 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a8008d-50bf-4d16-a1a4-75feffc006ce")
+	)
+	(wire
+		(pts
+			(xy 170.18 105.41) (xy 170.18 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d3c449-7543-4824-bfc9-f4294f0ffc8c")
+	)
+	(wire
+		(pts
+			(xy 36.83 90.17) (xy 36.83 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b66403ae-2c45-4ccb-ab58-317614fdae43")
+	)
+	(wire
+		(pts
+			(xy 72.39 90.17) (xy 72.39 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2b9c35-c9de-460d-9c13-2f794e9c4a05")
+	)
+	(wire
+		(pts
+			(xy 241.3 35.56) (xy 241.3 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb849d01-6282-4a8c-93d2-c5459f8b8a99")
+	)
+	(wire
+		(pts
+			(xy 177.8 74.93) (xy 177.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb9fbc0b-20c8-458f-a76c-d9db1a07afc7")
+	)
+	(wire
+		(pts
+			(xy 72.39 39.37) (xy 72.39 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc06762e-ff20-4524-ae27-76c190a9a172")
+	)
+	(wire
+		(pts
+			(xy 180.34 92.71) (xy 189.23 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8c9f9b-b1c3-4f56-b830-68ac718e30e2")
+	)
+	(wire
+		(pts
+			(xy 69.85 35.56) (xy 62.23 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf24665b-5154-43f5-9b3e-399ee21388ec")
+	)
+	(wire
+		(pts
+			(xy 99.06 57.15) (xy 106.68 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bffe4dd2-58a4-4c2c-831a-94d8910354af")
+	)
+	(wire
+		(pts
+			(xy 36.83 109.22) (xy 36.83 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1043db4-8c8e-494e-b90e-d3cf508060e9")
+	)
+	(wire
+		(pts
+			(xy 215.9 57.15) (xy 224.79 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c109441c-35ce-4116-837d-2daa3ab54c94")
+	)
+	(wire
+		(pts
+			(xy 180.34 74.93) (xy 180.34 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c127b2bb-df16-4a0e-a265-16656165f4c5")
+	)
+	(wire
+		(pts
+			(xy 170.18 127) (xy 177.8 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2410ff7-a59b-4b38-af72-27b3bab134d1")
+	)
+	(wire
+		(pts
+			(xy 170.18 35.56) (xy 170.18 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7179ade-7e81-446c-bd38-2d853cfbd314")
+	)
+	(wire
+		(pts
+			(xy 177.8 127) (xy 177.8 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca892582-521a-449b-9f56-fd8b02cbb13c")
+	)
+	(wire
+		(pts
+			(xy 69.85 127) (xy 69.85 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4aa17a-c466-4053-a918-fc7c3bdee60c")
+	)
+	(wire
+		(pts
+			(xy 213.36 71.12) (xy 205.74 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc67b66-efca-42f3-8acf-61cb227f1f3b")
+	)
+	(wire
+		(pts
+			(xy 134.62 57.15) (xy 142.24 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d136533c-c55f-4584-8592-c1bc95106d02")
+	)
+	(wire
+		(pts
+			(xy 241.3 67.31) (xy 243.84 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d198fcb5-ab1c-4cc3-808d-5b887551478c")
+	)
+	(wire
+		(pts
+			(xy 109.22 54.61) (xy 109.22 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4485d49-eb66-4f36-8019-33e071cdcad5")
+	)
+	(wire
+		(pts
+			(xy 62.23 35.56) (xy 62.23 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5df7d34-2153-4de9-a73d-819c84908709")
+	)
+	(wire
+		(pts
+			(xy 177.8 109.22) (xy 177.8 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6bcaec6-6c22-4c6c-b4a9-a36db515ad23")
+	)
+	(wire
+		(pts
+			(xy 241.3 92.71) (xy 248.92 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d875982d-b2bf-4fa3-9777-1529ecf755c4")
+	)
+	(wire
+		(pts
+			(xy 72.39 35.56) (xy 77.47 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8b08136-f5ff-4b5c-b444-087b876f383a")
+	)
+	(wire
+		(pts
+			(xy 72.39 71.12) (xy 77.47 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db8fe4c1-789e-4a36-9f96-a222a3810868")
+	)
+	(wire
+		(pts
+			(xy 99.06 105.41) (xy 99.06 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcd43147-10f4-4706-89ab-c7ad85f0f489")
+	)
+	(wire
+		(pts
+			(xy 248.92 71.12) (xy 241.3 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df048000-c8e5-4f0e-967a-b35f5523255f")
+	)
+	(wire
+		(pts
+			(xy 248.92 74.93) (xy 248.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfde19d7-b47d-482a-af10-de6bdb83b9c5")
+	)
+	(wire
+		(pts
+			(xy 142.24 71.12) (xy 134.62 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e96d66-1da7-469c-93dd-4999c944262b")
+	)
+	(wire
+		(pts
+			(xy 205.74 35.56) (xy 205.74 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28e1ed0-50e9-447a-b9c9-a1929fcc229b")
+	)
+	(wire
+		(pts
+			(xy 144.78 35.56) (xy 149.86 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d0a779-5e1c-401a-b6a4-f7e619342993")
+	)
+	(wire
+		(pts
+			(xy 34.29 57.15) (xy 34.29 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c1a850-1aee-4210-a595-ca1bd5defb44")
+	)
+	(wire
+		(pts
+			(xy 109.22 90.17) (xy 109.22 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63a0f86-8321-4e71-8644-e9d47ab78530")
+	)
+	(wire
+		(pts
+			(xy 142.24 109.22) (xy 142.24 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c3722e-1379-4928-b72c-0f91f2ad32c5")
+	)
+	(wire
+		(pts
+			(xy 36.83 127) (xy 45.72 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7db95b8-a9ba-4553-b989-2832d64fdac3")
+	)
+	(wire
+		(pts
+			(xy 144.78 109.22) (xy 144.78 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7dc4849-58cf-43ac-a061-d184722213c0")
+	)
+	(wire
+		(pts
+			(xy 177.8 105.41) (xy 170.18 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f25250-aea9-46d6-89e7-49f8f6d7cfd5")
+	)
+	(wire
+		(pts
+			(xy 99.06 105.41) (xy 99.06 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9177148-b3bf-4e69-ac8a-0e828cbc3c81")
+	)
+	(wire
+		(pts
+			(xy 26.67 71.12) (xy 26.67 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e919f8ed-dba5-4677-9161-35d72e739380")
+	)
+	(wire
+		(pts
+			(xy 99.06 101.6) (xy 101.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9515722-649a-446d-8d11-44f1c314808c")
+	)
+	(wire
+		(pts
+			(xy 109.22 57.15) (xy 118.11 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c56d2f-3da2-4841-b6b2-3995a41886b9")
+	)
+	(wire
+		(pts
+			(xy 26.67 127) (xy 34.29 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea51bd20-e3a0-4632-b965-0c8f550a4deb")
+	)
+	(wire
+		(pts
+			(xy 205.74 71.12) (xy 205.74 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebda4916-1f75-4c06-a8a7-06b501afe913")
+	)
+	(wire
+		(pts
+			(xy 99.06 71.12) (xy 99.06 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb3c751-0ef4-46d3-9c97-3a0a40c64be0")
+	)
+	(wire
+		(pts
+			(xy 215.9 127) (xy 224.79 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd67d99-f43a-4b20-97df-88fcd5fc4638")
+	)
+	(wire
+		(pts
+			(xy 99.06 35.56) (xy 99.06 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd93700-a7bb-466d-b568-edf3f7dddee4")
+	)
+	(wire
+		(pts
+			(xy 205.74 92.71) (xy 213.36 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed9da762-702a-4125-a8fe-3f244b8cc822")
+	)
+	(wire
+		(pts
+			(xy 34.29 39.37) (xy 34.29 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeda43f0-571c-45c9-b6c1-3a1850c6b1b9")
+	)
+	(wire
+		(pts
+			(xy 177.8 35.56) (xy 170.18 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef553981-cc8d-4632-81af-81f6f210d168")
+	)
+	(wire
+		(pts
+			(xy 215.9 54.61) (xy 215.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef58736d-8a37-4421-863c-54a1d3418c63")
+	)
+	(wire
+		(pts
+			(xy 177.8 71.12) (xy 170.18 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef7d56d3-5085-44a6-852a-1f84c5ccc6ad")
+	)
+	(wire
+		(pts
+			(xy 241.3 71.12) (xy 241.3 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "effbd9c6-c40f-46f9-98da-a4fdbbe6329f")
+	)
+	(wire
+		(pts
+			(xy 106.68 35.56) (xy 99.06 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1066491-2803-42dc-8ba4-22267eea0127")
+	)
+	(wire
+		(pts
+			(xy 142.24 39.37) (xy 142.24 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1dbb955-08f3-436c-a75e-ec5654bdc013")
+	)
+	(wire
+		(pts
+			(xy 134.62 67.31) (xy 137.16 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f23ec604-088e-42ab-8d40-71bb9bb6ffbf")
+	)
+	(wire
+		(pts
+			(xy 36.83 124.46) (xy 36.83 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2868fbc-68e8-42c0-a936-bd7ae473f6d4")
+	)
+	(wire
+		(pts
+			(xy 106.68 127) (xy 106.68 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f365779d-6d89-48af-8f1b-ca1b32e6a7fd")
+	)
+	(wire
+		(pts
+			(xy 72.39 57.15) (xy 81.28 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3adcfcb-78a5-4f2b-8ca6-302144a0efde")
+	)
+	(wire
+		(pts
+			(xy 36.83 35.56) (xy 41.91 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45ef587-623b-4ca5-83d4-2b8d8b7555ca")
+	)
+	(wire
+		(pts
+			(xy 215.9 71.12) (xy 220.98 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f55f0b67-af06-4c0d-a929-189d36fd2776")
+	)
+	(wire
+		(pts
+			(xy 106.68 92.71) (xy 106.68 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6fe7aab-67c5-494c-b4e8-2322006eae3c")
+	)
+	(wire
+		(pts
+			(xy 134.62 31.75) (xy 137.16 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f702f476-5672-4e77-b721-bc97adcb6a01")
+	)
+	(wire
+		(pts
+			(xy 215.9 35.56) (xy 220.98 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ef742a-7aee-4ac7-a3a3-b8645156b224")
+	)
+	(wire
+		(pts
+			(xy 106.68 105.41) (xy 99.06 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6089d5-ea99-4c39-be7a-a2b1c3eacaf1")
+	)
+	(wire
+		(pts
+			(xy 241.3 57.15) (xy 248.92 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf2985c-2b6c-4954-bec9-0bba4aeb311e")
+	)
+	(wire
+		(pts
+			(xy 144.78 57.15) (xy 153.67 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd65ddd3-99fa-4595-aae8-411670bc2fcc")
+	)
+	(wire
+		(pts
+			(xy 241.3 31.75) (xy 243.84 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd862591-56a8-4569-9e66-4fe0ea558f09")
+	)
+	(wire
+		(pts
+			(xy 215.9 92.71) (xy 224.79 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde77ef4-957d-400c-8bad-c0d08b4146e3")
+	)
+	(wire
+		(pts
+			(xy 62.23 105.41) (xy 62.23 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd67fad-82f1-495d-83c1-6e6fe7fc654a")
+	)
+	(global_label "A3 OPA"
+		(shape input)
+		(at 29.21 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05267ae0-3f5d-4b2c-9fb2-6a07db8570da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.15 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "C#4 sq wave"
+		(shape input)
+		(at 189.23 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1748c019-4da0-449d-becc-5dbadfba514f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.6127 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "A4 OPA"
+		(shape input)
+		(at 208.28 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c7ca6b5-3308-49ed-8988-b389d14106c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.22 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "B4 OPA"
+		(shape input)
+		(at 29.21 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1dba3381-d2fa-4af8-9272-82e70e130f19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.3314 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "A3 RC"
+		(shape input)
+		(at 41.91 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "210d18da-4d9c-4988-96bd-209d9518f091")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.7009 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Eb5 RC"
+		(shape input)
+		(at 185.42 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "269f5a8f-b586-47bf-938d-e0705b0808c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.4203 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Bb4 sq wave"
+		(shape input)
+		(at 260.35 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2aca1da2-af3d-4c56-82f3-cc0f756a50f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.6117 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "C#4 OPA"
+		(shape input)
+		(at 172.72 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cab1714-fa25-4d1c-aac4-a62d643674b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.1114 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "F#4 RC"
+		(shape input)
+		(at 114.3 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31aa7b1b-6b6c-4efb-aa07-f96036e1d0c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.3609 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Bb3 OPA"
+		(shape input)
+		(at 64.77 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "324b0f92-7254-4981-84d9-c59b4b2e0d9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.0404 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D5 RC"
+		(shape input)
+		(at 149.86 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3533d7aa-b8b8-4fdb-ab3b-3319f1f132c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.8323 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "C5 sq wave"
+		(shape input)
+		(at 81.28 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a7e5994-8848-4b46-a517-a79579bed3a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.3927 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "E5 RC"
+		(shape input)
+		(at 220.98 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3fe2a9cb-1e6a-4a52-9552-d5785f887a3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.8313 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "B3 RC"
+		(shape input)
+		(at 114.3 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41802783-670f-49da-b262-4c6ba27c0a36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.2723 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D4 RC"
+		(shape input)
+		(at 220.98 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "425ed3c9-e37d-45ad-8573-b323f7cf862d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.9523 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "C#5 RC"
+		(shape input)
+		(at 114.3 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49052a28-6f07-4850-b678-5c38138d058f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.5423 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "G4 RC"
+		(shape input)
+		(at 149.86 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5120b7cd-5c69-4c45-b944-0abf5943dee0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.8323 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "A4 RC"
+		(shape input)
+		(at 220.98 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5257ec41-3cae-40b9-98ae-09434e526ec8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.7709 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "F4 OPA"
+		(shape input)
+		(at 64.77 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53275097-7135-4c52-86b2-6b04deb75d25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.71 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "F4 sq wave"
+		(shape input)
+		(at 81.28 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e30e600-5b11-4216-953e-b18f69cb766c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.2113 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "C4 RC"
+		(shape input)
+		(at 149.86 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67b0212e-1275-4c40-96d0-f34196f47890")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.8323 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Eb4 RC"
+		(shape input)
+		(at 256.54 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69be8eb8-5f39-4773-b11d-530c27ed331b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.5403 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "G4 sq wave"
+		(shape input)
+		(at 153.67 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e6eb2ba-f30e-4c66-a2a3-b93b347a3d1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.7827 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "C#4 RC"
+		(shape input)
+		(at 185.42 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ea49032-0aac-4cc3-8009-c9f7903d957f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.6623 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "C5 RC"
+		(shape input)
+		(at 77.47 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7925d96e-6dba-43f4-9ff4-c6f63855f1a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.4423 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Ab4 sq wave"
+		(shape input)
+		(at 189.23 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c6767dc-6ec8-4aac-8ac1-03360ad1547b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.3103 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "B3 sq wave"
+		(shape input)
+		(at 118.11 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e3eda63-da79-4573-a819-8fcb41954cbf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.2227 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "B3 OPA"
+		(shape input)
+		(at 101.6 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f50bb29-2d58-4c40-948d-7c8a13dfc830")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.7214 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "B4 sq wave"
+		(shape input)
+		(at 45.72 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82d5f936-91eb-4e35-85a4-c7de40a6c08a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.8327 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Bb3 RC"
+		(shape input)
+		(at 77.47 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "837a9ece-c3e2-4049-8711-14e2c3603aba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.5913 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Ab4 RC"
+		(shape input)
+		(at 185.42 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "861df818-132f-4a86-a83a-f8efe9c52e59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.3599 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Bb4 OPA"
+		(shape input)
+		(at 243.84 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ed3f2e6-f9e3-423d-b7cc-c9082f596151")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.1104 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "E5 sq wave"
+		(shape input)
+		(at 224.79 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9044a50a-1574-452d-ab37-4efa4522a833")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.7817 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D5 OPA"
+		(shape input)
+		(at 137.16 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98d797fd-f03a-4206-8ba9-a923b26d4cc5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.2814 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Eb5 sq wave"
+		(shape input)
+		(at 189.23 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98ea20ad-9aa8-45f9-af7a-27cd24fe4551")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.3707 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "E4 sq wave"
+		(shape input)
+		(at 45.72 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a291edf6-cd1e-4e91-908f-bff97bb113f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.7117 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "F#4 OPA"
+		(shape input)
+		(at 101.6 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a50c078a-cbfe-47fb-8081-757199f71ed3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.81 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Bb4 RC"
+		(shape input)
+		(at 256.54 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5ea7fdb-cd7f-4c6b-8771-3c1811de765a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.6613 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "G4 OPA"
+		(shape input)
+		(at 137.16 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9631b96-a33a-4d7c-8e47-51be1135b3a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.2814 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D5 sq wave"
+		(shape input)
+		(at 153.67 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aed8b775-6c17-4e7d-aa42-4b8eb6344608")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.7827 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "A3 sq wave"
+		(shape input)
+		(at 45.72 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1127fb1-ce79-4620-9383-6aa54ea97b27")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.6513 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "A4 sq wave"
+		(shape input)
+		(at 224.79 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b45c1d5c-d449-49b8-9004-b6b058605e26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.7213 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Eb4 sq wave"
+		(shape input)
+		(at 260.35 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7d0748c-0ab1-4f1c-945e-c426cffac77a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.4907 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "E5 OPA"
+		(shape input)
+		(at 208.28 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b892d353-ee71-4a0b-a403-3ba6958cd9c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.2804 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "C5 OPA"
+		(shape input)
+		(at 64.77 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba90a639-0aa0-487d-83ee-c40416639f3d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.8914 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "E4 OPA"
+		(shape input)
+		(at 29.21 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb91fe34-3567-47c6-9239-104473766e1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.2104 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D4 sq wave"
+		(shape input)
+		(at 224.79 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0e7d17b-ec55-488b-b8ae-27bd39955e50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.9027 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Bb3 sq wave"
+		(shape input)
+		(at 81.28 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c54ef826-702f-48b2-8693-a7a6a57aff83")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.5417 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D4 OPA"
+		(shape input)
+		(at 208.28 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8b2f2e4-67cb-48cc-b112-c8c27486dac5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.4014 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Ab4 OPA"
+		(shape input)
+		(at 172.72 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce096aaa-513f-4c74-b8ba-1c758ac2df34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.809 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "C#5 OPA"
+		(shape input)
+		(at 101.6 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db395b3c-ad56-4944-a47b-bdee6dc7a177")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.9914 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Eb4 OPA"
+		(shape input)
+		(at 243.84 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbe02032-d9d4-416b-9609-d032db2ededa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.9894 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "F4 RC"
+		(shape input)
+		(at 77.47 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1c430bb-be42-4e74-ba77-30b48c73ae52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.2609 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "B4 RC"
+		(shape input)
+		(at 41.91 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ead2c9b7-1c1c-421a-aebc-4d60436f3ce6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8823 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Eb5 OPA"
+		(shape input)
+		(at 172.72 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6264a85-0feb-4ac9-9ae8-38221105ac33")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.8694 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "C4 sq wave"
+		(shape input)
+		(at 153.67 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7be71ac-0c63-4bad-832c-3bf3acbe512b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.7827 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "C4 OPA"
+		(shape input)
+		(at 137.16 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f89db0e3-e62f-4f03-b9be-06c510a123bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.2814 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "F#4 sq wave"
+		(shape input)
+		(at 118.11 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fbc5fdd4-9aa1-4856-84b7-275f8efc9e2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.3113 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "C#5 sq wave"
+		(shape input)
+		(at 118.11 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fbfbf83c-8905-437f-b0d1-d7831b84190e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.4927 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "E4 RC"
+		(shape input)
+		(at 41.91 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd959767-b295-4a94-819f-2cf2462067a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.7613 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:PS-7054DVB-6PN")
+		(at 68.58 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1042d3a2-14d2-4d62-a4f8-94d997bae11e")
+		(property "Reference" "SW3"
+			(at 74.93 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Bb3"
+			(at 74.93 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+			(at 68.58 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+			(at 68.58 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 68.58 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PS-7054DVB-6PN"
+			(at 68.58 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22363820"
+			(at 68.58 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "46a43348-e8cb-4fb6-98cb-bed31dd063ad")
+		)
+		(pin "6"
+			(uuid "8fabe2ea-76a2-4966-8852-189cc2ae4b40")
+		)
+		(pin "3"
+			(uuid "250c695a-612d-48ce-884f-59abc31c36ce")
+		)
+		(pin "4"
+			(uuid "5c46e329-f440-4044-bba6-b24380f81ea4")
+		)
+		(pin "2"
+			(uuid "241ac599-552e-47ae-ac1a-d03bbc9b43d0")
+		)
+		(pin "1"
+			(uuid "68a33579-1e35-49a5-b348-efc9e152af4b")
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a/b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:PS-7054DVB-6PN")
+		(at 140.97 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1657dc24-0beb-492f-b03c-b2c958dacea4")
+		(property "Reference" "SW12"
+			(at 147.32 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G4"
+			(at 147.32 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+			(at 140.97 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+			(at 140.97 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 140.97 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PS-7054DVB-6PN"
+			(at 140.97 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22363820"
+			(at 140.97 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "0e3891a5-99b4-40de-bc7d-6370d6edfbc7")
+		)
+		(pin "6"
+			(uuid "83eb6193-ea7c-4698-9fe7-0c9a81b78011")
+		)
+		(pin "3"
+			(uuid "6764ee0b-ca19-4cbf-9e54-c0d49a33d37c")
+		)
+		(pin "4"
+			(uuid "731b6d0f-bab2-4947-83e3-00d5fe8c81d2")
+		)
+		(pin "2"
+			(uuid "99a2a7a5-b0fa-4212-af57-bbf0509976eb")
+		)
+		(pin "1"
+			(uuid "3f73b323-7d8c-4e8c-a8a8-600e16b0e1b9")
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a/b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:PS-7054DVB-6PN")
+		(at 247.65 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "175f5440-47f3-483c-b354-29efe1510303")
+		(property "Reference" "SW8"
+			(at 254 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Eb4"
+			(at 254 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+			(at 247.65 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+			(at 247.65 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 247.65 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PS-7054DVB-6PN"
+			(at 247.65 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22363820"
+			(at 247.65 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "83ccdd0a-dd5c-4872-a052-31aab3764804")
+		)
+		(pin "6"
+			(uuid "ea784da7-8b7f-4082-89e6-04650427aba9")
+		)
+		(pin "3"
+			(uuid "04eb5f34-ca14-4f2a-86f5-2c11c3499584")
+		)
+		(pin "4"
+			(uuid "6d870167-2c52-4af7-8c4b-bbd0532a939a")
+		)
+		(pin "2"
+			(uuid "35178cbe-91cb-49ce-aabf-dc70d52a2b0e")
+		)
+		(pin "1"
+			(uuid "6e3f720c-b625-4461-aef2-6006d62bc31f")
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a/b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:PS-7054DVB-6PN")
+		(at 176.53 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "207ea360-12e5-4f62-b620-b42052e3e30c")
+		(property "Reference" "SW20"
+			(at 182.88 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Eb5"
+			(at 182.88 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+			(at 176.53 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+			(at 176.53 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 176.53 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PS-7054DVB-6PN"
+			(at 176.53 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22363820"
+			(at 176.53 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "29407ea2-502e-4ba6-94c7-527b351b00ef")
+		)
+		(pin "6"
+			(uuid "32216d08-3b06-492c-b758-8d742960f750")
+		)
+		(pin "3"
+			(uuid "d9e4510b-76ba-4bf2-bd16-5d77a1acc83b")
+		)
+		(pin "4"
+			(uuid "11343b93-0b0f-4f43-889d-219d4721a316")
+		)
+		(pin "2"
+			(uuid "c0b52c69-724c-4120-a21e-bcb9998b3356")
+		)
+		(pin "1"
+			(uuid "f1609e7f-0cd1-4822-b8af-7d8a57e655a5")
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a/b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:PS-7054DVB-6PN")
+		(at 33.02 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c40cd53-e601-4808-83cc-f5da7a1a73cd")
+		(property "Reference" "SW9"
+			(at 39.37 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "E4"
+			(at 39.37 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+			(at 33.02 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+			(at 33.02 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 33.02 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PS-7054DVB-6PN"
+			(at 33.02 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22363820"
+			(at 33.02 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "6e23922f-9746-4985-949a-ca1cf84f9c8a")
+		)
+		(pin "6"
+			(uuid "6b46d35c-a43d-4130-bf70-a38803e4a441")
+		)
+		(pin "3"
+			(uuid "e16427ab-8ad4-4525-8ea8-e6cdfa016257")
+		)
+		(pin "4"
+			(uuid "1222d1ec-300b-4e28-a796-5d794ce34067")
+		)
+		(pin "2"
+			(uuid "6e9047c1-0c4d-43bb-9c41-6dd7cc9b418f")
+		)
+		(pin "1"
+			(uuid "d12f581b-6d3e-4a80-8dfe-c2136d268f02")
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a/b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:PS-7054DVB-6PN")
+		(at 176.53 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38841794-c743-4e21-a452-c4601697255a")
+		(property "Reference" "SW6"
+			(at 182.88 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C#4"
+			(at 182.88 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+			(at 176.53 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+			(at 176.53 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 176.53 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PS-7054DVB-6PN"
+			(at 176.53 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22363820"
+			(at 176.53 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "7880134e-15af-411a-8584-40fc07777ebe")
+		)
+		(pin "6"
+			(uuid "a5ce8e5d-3c15-4582-83b1-838077f552f0")
+		)
+		(pin "3"
+			(uuid "a1953cf5-3526-4db1-ac57-2eabd3960f79")
+		)
+		(pin "4"
+			(uuid "f1fac2e7-7767-4ff4-b373-f22578d91c5c")
+		)
+		(pin "2"
+			(uuid "e14fe2ea-422d-4cc6-ac6a-e1c2ab03a9bc")
+		)
+		(pin "1"
+			(uuid "a138acbb-7bf9-4f44-a305-2cb398596647")
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a/b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:PS-7054DVB-6PN")
+		(at 140.97 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "406cd0f0-f16f-491b-aa1a-807d824b6b50")
+		(property "Reference" "SW5"
+			(at 147.32 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C4"
+			(at 147.32 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+			(at 140.97 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+			(at 140.97 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 140.97 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PS-7054DVB-6PN"
+			(at 140.97 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22363820"
+			(at 140.97 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "52d463bd-2178-4d1c-afa5-79cdc5acafcc")
+		)
+		(pin "6"
+			(uuid "fcb17bf4-9013-4da4-bd02-44020608ec0a")
+		)
+		(pin "3"
+			(uuid "46e5ce05-c7ac-4ade-bc9d-371436f15a7d")
+		)
+		(pin "4"
+			(uuid "2e99a099-3ec3-451c-9ca3-589a33b9181e")
+		)
+		(pin "2"
+			(uuid "9ddf5cad-3afd-480f-a043-0e5f51004db1")
+		)
+		(pin "1"
+			(uuid "f5728cd3-62fe-48ad-ba86-38ccb91445cb")
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a/b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:PS-7054DVB-6PN")
+		(at 33.02 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4124878f-aa2f-44af-88f6-ee2704873e4c")
+		(property "Reference" "SW16"
+			(at 39.37 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B4"
+			(at 39.37 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+			(at 33.02 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+			(at 33.02 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 33.02 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PS-7054DVB-6PN"
+			(at 33.02 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22363820"
+			(at 33.02 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "b90cf7d3-b0e9-412d-85f5-947cd2204759")
+		)
+		(pin "6"
+			(uuid "cb0ae0f2-d3ba-4f92-a4ea-2d80704e5c6f")
+		)
+		(pin "3"
+			(uuid "82d76aa7-2006-4562-9329-24c2515c2dac")
+		)
+		(pin "4"
+			(uuid "5cf281ec-9748-4fd9-b03c-ca5ce4b566bb")
+		)
+		(pin "2"
+			(uuid "edb08851-9f69-4f81-a971-2cfa5126c2a3")
+		)
+		(pin "1"
+			(uuid "d1297b8a-2bc8-4a5d-9765-2f510b6305f3")
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a/b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:PS-7054DVB-6PN")
+		(at 105.41 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d371739-10fd-444d-af76-445852204008")
+		(property "Reference" "SW18"
+			(at 111.76 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C#5"
+			(at 111.76 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+			(at 105.41 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+			(at 105.41 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 105.41 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PS-7054DVB-6PN"
+			(at 105.41 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22363820"
+			(at 105.41 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "3a55bbc4-e67d-4e39-a9e3-5b3b9ad47cdc")
+		)
+		(pin "6"
+			(uuid "56e68741-4cf8-4716-b46a-01a64f17f2e0")
+		)
+		(pin "3"
+			(uuid "4a52fc55-aad8-4004-ae28-59ce8d003244")
+		)
+		(pin "4"
+			(uuid "96d36e91-6f10-4b1e-90a9-65cbd9659975")
+		)
+		(pin "2"
+			(uuid "5e76a1ca-c9d1-4013-821c-036608cec727")
+		)
+		(pin "1"
+			(uuid "70b85485-c219-4488-9fd2-16e92ca01a20")
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a/b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:PS-7054DVB-6PN")
+		(at 68.58 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6622d5c2-4c3d-4cbb-8023-4e4ee58bd7a8")
+		(property "Reference" "SW17"
+			(at 74.93 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C5"
+			(at 74.93 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+			(at 68.58 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+			(at 68.58 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 68.58 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PS-7054DVB-6PN"
+			(at 68.58 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22363820"
+			(at 68.58 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "bf54f09e-2a74-4b3e-9b1e-abd517e3eef5")
+		)
+		(pin "6"
+			(uuid "f925f408-c225-418a-b1e7-5cb027f5f40d")
+		)
+		(pin "3"
+			(uuid "0e477b0c-27d9-4d77-98be-e00e5a81f1a5")
+		)
+		(pin "4"
+			(uuid "f4d0176e-33a5-44e8-82e0-0194299dbc8a")
+		)
+		(pin "2"
+			(uuid "104144ee-323d-411a-856a-e5352d5d298b")
+		)
+		(pin "1"
+			(uuid "cf9b4298-4580-4893-949d-d9543116494a")
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a/b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:PS-7054DVB-6PN")
+		(at 33.02 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70105d8b-0291-4f90-8cad-067df6b039ea")
+		(property "Reference" "SW2"
+			(at 39.37 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A3"
+			(at 39.37 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+			(at 33.02 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+			(at 33.02 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 33.02 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PS-7054DVB-6PN"
+			(at 33.02 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22363820"
+			(at 33.02 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "e8a41ed2-6e98-4083-a39d-629ec66415d7")
+		)
+		(pin "6"
+			(uuid "b3a0fbc7-961b-4427-a304-b1b3a45da336")
+		)
+		(pin "3"
+			(uuid "34e822eb-24ee-4563-adea-6426ee563800")
+		)
+		(pin "4"
+			(uuid "2b2b520e-1d09-4d39-bb56-bb920858dc88")
+		)
+		(pin "2"
+			(uuid "37651993-bcec-44b1-8589-508592fc9e55")
+		)
+		(pin "1"
+			(uuid "f9586377-6edc-4323-a724-0bf496bd5caa")
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a/b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:PS-7054DVB-6PN")
+		(at 105.41 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a34eb33-94b5-4152-beed-e78590adaaf8")
+		(property "Reference" "SW11"
+			(at 111.76 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "F#4"
+			(at 111.76 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+			(at 105.41 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+			(at 105.41 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 105.41 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PS-7054DVB-6PN"
+			(at 105.41 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22363820"
+			(at 105.41 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "8029bcc6-c6d2-40cd-a6ed-11876276620d")
+		)
+		(pin "6"
+			(uuid "87649d19-64d8-4935-bb1f-52c786d20c75")
+		)
+		(pin "3"
+			(uuid "c76ba9f8-8852-49ab-a1d8-3d7804866a37")
+		)
+		(pin "4"
+			(uuid "903c4dee-64ae-4f5b-82d0-b0a69d481834")
+		)
+		(pin "2"
+			(uuid "e5c648dd-a4e0-43a0-87b4-605e56cf247c")
+		)
+		(pin "1"
+			(uuid "f486a14c-0c81-447e-91fe-d6e1247650ba")
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a/b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:PS-7054DVB-6PN")
+		(at 176.53 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aaa9d464-aa76-43f9-b59c-7d8d67487134")
+		(property "Reference" "SW13"
+			(at 182.88 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Ab4"
+			(at 182.88 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+			(at 176.53 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+			(at 176.53 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 176.53 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PS-7054DVB-6PN"
+			(at 176.53 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22363820"
+			(at 176.53 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "2fb7fe12-58f6-4b32-bc4e-ce7f75e121f1")
+		)
+		(pin "6"
+			(uuid "38202e75-1b4d-4629-9599-609f4264a38c")
+		)
+		(pin "3"
+			(uuid "f2a61f93-7d77-4c18-b4cf-7f04959e84ea")
+		)
+		(pin "4"
+			(uuid "27d09ad0-d52f-4de6-911b-5bc7904fdfc4")
+		)
+		(pin "2"
+			(uuid "24568f5f-b80e-4208-b50f-cad35c4a630c")
+		)
+		(pin "1"
+			(uuid "ef8a454f-6db9-438a-9924-71c782e6e988")
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a/b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:PS-7054DVB-6PN")
+		(at 247.65 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab907c7b-2596-4cc5-a1cb-f60b8e3b62c7")
+		(property "Reference" "SW15"
+			(at 254 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Bb4"
+			(at 254 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+			(at 247.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+			(at 247.65 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 247.65 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PS-7054DVB-6PN"
+			(at 247.65 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22363820"
+			(at 247.65 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "e4631a2e-423f-4c13-a65a-006a8be45dc7")
+		)
+		(pin "6"
+			(uuid "8cb02878-850e-43fa-8965-73d52d416f84")
+		)
+		(pin "3"
+			(uuid "7c0b38c2-4190-48b0-95e5-dddcde509579")
+		)
+		(pin "4"
+			(uuid "95712768-ce88-4961-bdf4-795445955190")
+		)
+		(pin "2"
+			(uuid "39246cb9-c960-48ed-b074-2c2fa7729814")
+		)
+		(pin "1"
+			(uuid "25db91dd-a4d7-466a-b1fd-26eed143c305")
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a/b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:PS-7054DVB-6PN")
+		(at 140.97 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7d1e9ef-5d93-45ce-b362-67fa3eba55cd")
+		(property "Reference" "SW19"
+			(at 147.32 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D5"
+			(at 147.32 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+			(at 140.97 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+			(at 140.97 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 140.97 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PS-7054DVB-6PN"
+			(at 140.97 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22363820"
+			(at 140.97 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "bf8d3843-8fff-474f-afbe-3d218f7d743d")
+		)
+		(pin "6"
+			(uuid "ac5e1753-2529-4251-8705-035af4a852a6")
+		)
+		(pin "3"
+			(uuid "f8649672-175e-46c6-b72f-97f831c72133")
+		)
+		(pin "4"
+			(uuid "b07587f6-ef34-4e2c-9e31-ad8919ec2a56")
+		)
+		(pin "2"
+			(uuid "62f38a9b-84b5-49c5-9350-bdcf8f37b398")
+		)
+		(pin "1"
+			(uuid "27cb843a-f1f5-4ac8-84a6-b74615552f39")
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a/b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:PS-7054DVB-6PN")
+		(at 105.41 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc04f367-93e0-4c8f-a57c-f2b016743aa7")
+		(property "Reference" "SW4"
+			(at 111.76 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B3"
+			(at 111.76 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+			(at 105.41 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+			(at 105.41 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 105.41 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PS-7054DVB-6PN"
+			(at 105.41 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22363820"
+			(at 105.41 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "5f69a7c2-b0d4-4dbe-b1fc-085091c7185a")
+		)
+		(pin "6"
+			(uuid "ef068190-c533-479e-90f2-787943776c6d")
+		)
+		(pin "3"
+			(uuid "80ad3c82-2078-458d-8a89-7bb636e9bc04")
+		)
+		(pin "4"
+			(uuid "7032315c-ef81-4a58-8125-99ed6a3d5409")
+		)
+		(pin "2"
+			(uuid "f1434a9c-6ac1-4455-a283-2aa81a021f06")
+		)
+		(pin "1"
+			(uuid "a6b6dbc5-54ea-4525-be49-8ba239c676f8")
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a/b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:PS-7054DVB-6PN")
+		(at 212.09 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbe024db-9f0f-4547-bba5-c2183a52177e")
+		(property "Reference" "SW7"
+			(at 218.44 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D4"
+			(at 218.44 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+			(at 212.09 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+			(at 212.09 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 212.09 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PS-7054DVB-6PN"
+			(at 212.09 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22363820"
+			(at 212.09 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "75ef0756-a31c-4b80-a537-86edd957aa2f")
+		)
+		(pin "6"
+			(uuid "2ffca408-43d8-4546-a926-d669d8434679")
+		)
+		(pin "3"
+			(uuid "17d31a0f-88e2-41ce-b786-6d8d020438cf")
+		)
+		(pin "4"
+			(uuid "f3222db2-17e7-404c-bac6-01db46edfa2f")
+		)
+		(pin "2"
+			(uuid "64e2b6de-9bb0-4b6a-86cc-7269e36b7a3b")
+		)
+		(pin "1"
+			(uuid "0a37fcac-e968-4a6b-8f5c-b185e98f65cb")
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a/b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:PS-7054DVB-6PN")
+		(at 212.09 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebc08b6f-238e-44f3-9bca-bd93398ec959")
+		(property "Reference" "SW14"
+			(at 218.44 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "A4"
+			(at 218.44 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+			(at 212.09 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+			(at 212.09 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 212.09 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PS-7054DVB-6PN"
+			(at 212.09 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22363820"
+			(at 212.09 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "c6172c22-c58b-45de-96e3-160a2ea3ea9b")
+		)
+		(pin "6"
+			(uuid "798b3df6-c454-421a-9147-3c394b917875")
+		)
+		(pin "3"
+			(uuid "83fd5c26-c1d3-4233-a058-bd2db71115a9")
+		)
+		(pin "4"
+			(uuid "306a56b1-3cb3-4df3-b506-1a7acf6eb9d9")
+		)
+		(pin "2"
+			(uuid "b46a0860-f4d1-45c3-8a46-8d450ad2522f")
+		)
+		(pin "1"
+			(uuid "4a132f62-4241-4970-a5be-7bfede162313")
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a/b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:PS-7054DVB-6PN")
+		(at 212.09 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f58f879c-4c73-4ba7-a49d-d9f846ba8add")
+		(property "Reference" "SW21"
+			(at 218.44 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "E5"
+			(at 218.44 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+			(at 212.09 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+			(at 212.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 212.09 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PS-7054DVB-6PN"
+			(at 212.09 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22363820"
+			(at 212.09 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "0fac5df6-cd89-45b4-a612-297d72dd0730")
+		)
+		(pin "6"
+			(uuid "8fabab3e-3f02-4ae4-8975-16e9b20f4543")
+		)
+		(pin "3"
+			(uuid "b7679613-c5d3-4c96-b498-226b9ca6a5f3")
+		)
+		(pin "4"
+			(uuid "09863ddb-ec78-42ad-9104-36c2e6443f16")
+		)
+		(pin "2"
+			(uuid "3757453d-1580-4a2c-b8df-5037654827a4")
+		)
+		(pin "1"
+			(uuid "3b247811-e44c-4170-bea6-20cc0717e205")
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a/b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:PS-7054DVB-6PN")
+		(at 68.58 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe00f56d-1450-47b2-9883-3fe88257915a")
+		(property "Reference" "SW10"
+			(at 74.93 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "F4"
+			(at 74.93 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SW-TH_6P-L7.0-W7.0-P2.00"
+			(at 68.58 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22363820.pdf"
+			(at 68.58 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-Switch(品赞)"
+			(at 68.58 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PS-7054DVB-6PN"
+			(at 68.58 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22363820"
+			(at 68.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "9488f700-887f-411d-bb27-373d5cb84fbd")
+		)
+		(pin "6"
+			(uuid "6dd29bee-29ba-46e0-8283-b92874bdeb1e")
+		)
+		(pin "3"
+			(uuid "6603a431-7574-467c-9eb7-b88ea06735fb")
+		)
+		(pin "4"
+			(uuid "772f21f6-6622-4051-9dcc-cd8fd1556ca1")
+		)
+		(pin "2"
+			(uuid "7c4ec849-99c1-40c2-a068-d98ef382d531")
+		)
+		(pin "1"
+			(uuid "b9477429-0ac7-4987-964b-8da754975c6e")
+		)
+		(instances
+			(project "analog sound synth"
+				(path "/425447dc-c662-4463-a318-9ca8a58ab54a/b2e8f16d-3bd1-4a32-b2e7-aac044ec33ca"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
