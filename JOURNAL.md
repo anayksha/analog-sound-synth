@@ -5,7 +5,9 @@ description: "It make music with electricity"
 created_at: "2026-04-25"
 ---
 
-# 1. April 25: button wiring and started square wave generators - 1 hr
+## current total: 18 hr 25 min
+
+# 1. April 25: button wiring and started square wave generators - 58 min
 
 [Lapse link](https://lapse.hackclub.com/timelapse/XMe9OOed_9DX)
 
@@ -14,14 +16,14 @@ and therefore I wasnt logging it, so thats how I just had a falstad sim and a
 spreadsheet that will come in handy when calculating resistor and capacitor values
 for the square wave generators for each key.
 
-<img src="journal_pics/1.1_circuit_sim.png" width="700">
+<img src="journal_pics/01.01_circuit_sim.png" width="600">
 
 So far I'm thinking of having 20 keys for 20 notes on the synth, each with an op amp square
 wave generator. The signals there will be passed into a summing integrator to generate
 triangular waves and also so chords can be played and there will be one audio signal that can
 be sent to a single speaker.
 
-<img src="journal_pics/1.2_button_schematic.png" width="700">
+<img src="journal_pics/01.02_button_schematic.png" width="700">
 
 I initially thought I should pull the signal to half the battery voltage whenever a key isn't pressed,
 and thats why I initially created a virtual ground with an op amp in the power circuitry. However, 
@@ -35,12 +37,12 @@ copies for 20 keys, and put in placeholder capacitors and resistors for now even
 to change the values and probably even use combos of components in series and parallel to get the
 oscillator to oscillate at a very precise frequency.
 
-<img src="journal_pics/1.3_op_amp_layout.png" width="700">
+<img src="journal_pics/01.03_op_amp_layout.png" width="700">
 
 # 2. April 26: calculating resistor and cap values - 1 hr 50 min
 
-[Lapse 1 link](https://lapse.hackclub.com/timelapse/UGRWi7fOgnEr);
-[Lapse 2 link](https://lapse.hackclub.com/timelapse/yOD0rQpwBWg-)
+[Lapse 1 link](https://lapse.hackclub.com/timelapse/UGRWi7fOgnEr)<br>
+[Lapse 2 link](https://lapse.hackclub.com/timelapse/yOD0rQpwBWg-)<br>
 (my computer died midway so i had to create 2 lapses)
 
 So to generate the square wave, there is basically and rc circuit that charges
@@ -50,7 +52,7 @@ so I made a calculator in google sheets to calculate the ideal resistance of the
 the rc circuit, given the resistance of the resistors that set the threshholds and the
 capacitor in the rc circuit.
 
-<img src="journal_pics/2.1_sq_wave_gen.png" width="700">
+<img src="journal_pics/02.01_sq_wave_gen.png" width="500">
 
 My reasoning behind calculating the resistance of the resistor the rc circuit in terms of the other
 values specifically was accuracy and cost constraints. Each successive semi tone has frequency ~6%
@@ -66,7 +68,7 @@ standard values for those to minimize cost and use them to broadly set threshold
 resistor for fine control. I sometimes had to use a combination of 2 resistors for the rc circuit resistor,
 which I calculated from the kicad calculator.
 
-<img src="journal_pics/2.2_oscillator_planner_chart.png" width="700">
+<img src="journal_pics/02.02_oscillator_planner_chart.png" width="700">
 
 # 3. April 26: transfered resistor and cap vals from sheet to schematic - 43 min 
 
@@ -76,12 +78,12 @@ Basically just took all the values from the calculations sheet and transfered th
 
 Other than that I added bypass caps to all the op amps which I forgot to add before.
 
-<img src="journal_pics/3.1_op_amp_schematic_finalized.png" width="700">
+<img src="journal_pics/03.01_op_amp_schematic_finalized.png" width="700">
 
 # 4. April 27: calculating integrator input resistor values and testing - 47 min
 
-[Lapse 1 link](https://lapse.hackclub.com/timelapse/QXdK0oR-2zmq);
-[Lapse 2 link](https://lapse.hackclub.com/timelapse/3a47_ErUy7ww)
+[Lapse 1 link](https://lapse.hackclub.com/timelapse/QXdK0oR-2zmq)<br>
+[Lapse 2 link](https://lapse.hackclub.com/timelapse/3a47_ErUy7ww)<br>
 (I was working on this during school hours and had to stop midway)
 
 Since I wanted to use triangular waves, the square wave signals have to be integrated using an op amp
@@ -95,14 +97,14 @@ and would generate corresponding resistance values for the rest of the notes.
 Accuracy here wasn't as important as with the square wave generators themselves so I pretty much just tried
 to use the single closest resistance resistor I could find on LCSC and not create any combos.
 
-<img src="journal_pics/4.1_integrator_spreadsheet.png" width="700">
+<img src="journal_pics/04.01_integrator_spreadsheet.png" width="500">
 
 After that I started researching and simulating what capacitance feedback capacitor I would need to create
 triangle waves that oscillate between 0 and 4.5 V given square waves between 0 and 4.5V. I also tried 
 experimenting with what resistance feedback resistor I should put in parallel with the capacitor, because
 any small dc offset in the input signal could be integrated indefinetly without the feedback resistor.
 
-<img src="journal_pics/4.2_integrator_simulation.png" width="700">
+<img src="journal_pics/04.02_integrator_simulation.png" width="550">
 
 # 5. April 27: figuring out summing integrator details and finish schematic - 2 hr 10 min
 
@@ -111,27 +113,29 @@ any small dc offset in the input signal could be integrated indefinetly without 
 After thinking a bit I realized that if chords were gonna be playing on the synth, then the actual sum
 of the triangular waves can exceed the power supply range of 0-4.5V, and so that the op amp would essentially
 truncate the signal and the feedback capacitor would saturate. The feedback resistor in parallel would help
-alleviate the issue but not exactly solve it in a sustainable manner. I briefly tried to find a solution that
-would add up signals the way I wanted to instead of using the op amp integrator, but ultimately I decided that
-I could increase the capacitance of the feedback capacitor by a certain factor, which would essentially
-divide the trianglular wave signals by said factor. Then the gain on the audio amplifier itself would be set
-to that factor.  This would allow more than 1 signal to be added and the output of the integrator would
-stay within the range of 0-4.5V.
+alleviate the issue but not exactly solve it in a sustainable manner because it would discharge slowly.
+I briefly tried to find a solution that would add up signals the way I wanted to instead of using the op
+amp integrator, but ultimately I decided that I could increase the capacitance of the feedback capacitor by
+a certain factor, which would essentially divide the trianglular wave signals by said factor. Then the gain
+on the audio amplifier itself would be set to that factor. This would allow more than 1 signal to be added
+and the output of the integrator would stay within the range of 0-4.5V.
 
 There would also be a volume control potentiometer between the integrator and audio amplifier, so in
 case that chords are being played and the audio amplifier tries to amplify the signal beyond the range of the power
 supply, the volume can always be turned down and the signal doesnt get capped by the audio amplifier.
 
-<img src="journal_pics/5.1_summing_integrator_sim.png" width="700">
+<img src="journal_pics/05.01_summing_integrator_sim.png" width="550">
 
 Then I created the schematic for the summing integrator, and spent a bit of time trying to find
 a logarithmic potentiometer that could work better for volume control (LCSC didn't have any filter for the
 resistance taper of a pot so I had to some googling and pouring through datasheets).
 
+<img src="journal_pics/05.02_summing_integrator_schematic.png" width="600">
+
 Also then I created the schematic for the audio amplifier itself but that was relatively easy compared to the rest
 of the stuff because I pretty much just had to copy what was on the datasheet.
 
-**Insert images of some schematic idk**
+<img src="journal_pics/05.03_audio_amp_schematic.png" width="700">
 
 Oh and finally I just tried to find the specific components I would be using for the speaker, battery pack, and
 power switch. I spent a bit of time trying to look for a speaker on LCSC but the only usable speakers couldn't be
@@ -147,7 +151,7 @@ So yeah I pretty much just scrolled on lcsc to find the cheapest capacitor/resis
 set the footprint in kicad as well as store the lcsc ID in a separate sheet so I can find it later when putting
 in the PCBA order. It took really long because I had over 50 resistors/capacitors to find footprints for.
 
-<img src="journal_pics/6.1_passive_components_list.png" width="700">
+<img src="journal_pics/06.01_passives_list.png" height="600">
 
 # 7. April 28: routing sq wave generators - 1 hr 48 min
 
@@ -162,8 +166,7 @@ the shape and spacing of the keys later in the cad and thought this was good eno
 As for how I routed it, each op amp IC is used by 2 notes, so I decided to route everything section by section,
 arranging the resistors/capacitors in a compact layout beside the IC and then placing the whole section over 2 buttons.
 
-<img src="journal_pics/7.1_sq_wave_unit.png" width="700">
-
+<img src="journal_pics/07.01_sq_wave_unit.png" width="550">
 
 # 8. April 28: routed the rest of the components - 1 hr 53 min
 
@@ -183,11 +186,13 @@ I filled in the ground planes on both sides it kind of just created a bunch of i
 of the battery. I spaced those 2 long horizontal traces apart from eachother so I could add stitching vias between them and
 connect the filled regions.
 
-<img src="journal_pics/8.1_big_aah_horizontal_traces.png">
+<img src="journal_pics/08.01_big_aah_horizontal_traces.png" width="700">
 
 When connecting the negative power supply terminal of the op amps to the ground plane I also had
 to do some sketchy via stiching so everything is connected. After that I kind of just added stiching vias everywere else and 
 ran the DRC and corrected any errors like with the trace clearance, board outline, and silkscreen layers.
+
+<img src="journal_pics/08.02_initial_board.png" width="700">
 
 # 9. April 29: reorganizing pcb - 51 min
 
@@ -200,9 +205,11 @@ that I just deleted the stitching vias up there because I thought they would clu
 added them back.
 
 My main concern was whether 3 AA batteries could fit next to the board within the rectangular outline of the board, but I
-realized that if I'm alr not putting the batteries on the board itself and putting them in the case that it doesnt matter anyway.
+realized that if I'm alr not putting the batteries on the board itself and putting them in the case so that it doesnt matter anyway.
 I just created a rectangle with the rough measurements of 3 AA batteries and put it on there for reference to make sure I had
 enough horizontal space without any conflictions, as I did with the speaker previously.
+
+<img src="journal_pics/09.01_shorter_pcb.png" width="700">
 
 I also briefly decided to edit the courtyard of the potentiometer footprint because in the DRC it was giving me some error
 about a self intersecting outline. Otherwise I fixed any other issues I saw in the DRC.
@@ -231,7 +238,7 @@ I also used the same resistor calculator method for the input resistors of the o
 
 In this worksession I just figured out the values on the google sheets calculator/planner I used before.
 
-<img src="journal_pics/10.1_new_resistor_vals.png" width="700">
+<img src="journal_pics/10.01_new_resistor_vals.png" width="700">
 
 # 11. May 3: transferring new resistor values to the schematic - 37 min 
 
@@ -239,7 +246,7 @@ In this worksession I just figured out the values on the google sheets calculato
 
 Yeah so I just took the values I calculated in the previous worksession and I put them in the schematic ig
 
-<img src="journal_pics/11.1_new_sq_wave_gen_schematic.png" width="700">
+<img src="journal_pics/11.01_new_sq_wave_gen_schematic.png" width="700">
 
 # 12. May 3: rerouted majority of pcb from new changes - 2 hr 32 min
 
@@ -257,15 +264,26 @@ board and began to route everything else. I did try to look back at the first fe
 way, but because of there were so many combinations of 0603 and 0402 resistors in series and parallel, I gave up trying to keep everything
 consistent at some point and just started doing whatever. I got to route the square wave generators for 17 notes.
 
+<img src="journal_pics/12.01_sketchy_sq_wave_unit_routing.png" width="700">
+
 # 13. May 3: finished routing square wave generators and integrator input resistors - 48 min
 
 [Lapse link](https://lapse.hackclub.com/timelapse/7DHDekHChPlv)
 
-hehe TODO
+I just finished routing the 3 square wave generators left as well as the op amp integrator input resistors. For those I also didn't try
+to route them in a consistent fashion I kinda did whatever based on if the resistors were in series or parallel.
+
+<img src="journal_pics/13.01_maybe_final_board_wout_power.png" width="700">
 
 # 14. May 4: wired power nets again basically - 37 min
 
 [Lapse link](https://lapse.hackclub.com/timelapse/A2BREO0AHGPJ)
 
-hehe TODO asw
+After all the component and routing changes I readded all the stitching vias to connect all the ground planes, as well as connect the op
+amp negative power supply pins to the bottom ground plane bc they were kinda isolated. After that I just did some minor checks and
+revisons based on the DRC.
+
+The PCB should be done actually now
+
+<img src="journal_pics/14.01_finished_pcb_maybe.png" width="1000">
 
